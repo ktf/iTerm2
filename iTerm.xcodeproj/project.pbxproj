@@ -301,6 +301,7 @@
 		874206530564169600CFC3F1 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0464AB2F006CD2EC7F000001 /* AppKit.framework */; };
 		9325FF500FB54E00004EC67C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9325FF4E0FB54E00004EC67C /* MainMenu.xib */; };
 		93A6FEFA10685E9900A5F905 /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = 93A6FEF910685E9900A5F905 /* dsa_pub.pem */; };
+		AAA1196F14599297002C991C /* CMS.icns in Resources */ = {isa = PBXBuildFile; fileRef = AAA1196E14599297002C991C /* CMS.icns */; };
 		DDF0FD65062916F70080EF74 /* iTermApplication.h in Headers */ = {isa = PBXBuildFile; fileRef = DDF0FD63062916F70080EF74 /* iTermApplication.h */; };
 		DDF0FD66062916F70080EF74 /* iTermApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF0FD64062916F70080EF74 /* iTermApplication.m */; };
 		F638C2620AD483BF00BEE23D /* iTerm.strings in Resources */ = {isa = PBXBuildFile; fileRef = FB151F2903648AC401F955DB /* iTerm.strings */; };
@@ -535,6 +536,7 @@
 		9325FF470FB54DF1004EC67C /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/BookmarksWindow.xib; sourceTree = "<group>"; };
 		9325FF4F0FB54E00004EC67C /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		93A6FEF910685E9900A5F905 /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
+		AAA1196E14599297002C991C /* CMS.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = CMS.icns; sourceTree = "<group>"; };
 		DD02572409CB9398008F320C /* PSMAquaTabStyle.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PSMAquaTabStyle.h; sourceTree = "<group>"; };
 		DD02572509CB9398008F320C /* PSMAquaTabStyle.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = PSMAquaTabStyle.m; sourceTree = "<group>"; };
 		DD02572609CB9398008F320C /* PSMMetalTabStyle.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PSMMetalTabStyle.h; sourceTree = "<group>"; };
@@ -856,6 +858,7 @@
 				DD9C1AE2051F45C000A8A065 /* iTerm-Aqua.jpg */,
 				FB094A14033D58AE01F955DB /* addressbook.png */,
 				FB094A16033D58B601F955DB /* close.png */,
+				AAA1196E14599297002C991C /* CMS.icns */,
 				FB754C5F036EFC5301F955DB /* config.png */,
 				F6DA0AFC0AF066EE0098EFEB /* edit.png */,
 				FB47BCC403686CAC01F955DB /* exec.png */,
@@ -1414,6 +1417,7 @@
 				1D19C3631415998E00617E08 /* closebutton.tif in Resources */,
 				1D9DDE9E142E855D00275650 /* Coprocess.png in Resources */,
 				5ECE4AEA14514058002A9CC2 /* Growl Registration Ticket.growlRegDict in Resources */,
+				AAA1196F14599297002C991C /* CMS.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
