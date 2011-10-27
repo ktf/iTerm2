@@ -23,7 +23,7 @@
 
 /* Close window */
 "Close Window?" = "Close Window?";
-"Quit iTerm?" = "Quit iTerm?";
+"Quit CMSSW?" = "Quit CMSSW?";
 
 /* Close Session */
 "This session will be closed."="This session will be closed.";
@@ -115,7 +115,7 @@
 "Configuration saved"="Configuration saved";
 
 /* OS Version */
-"Minimum_OS"="iTerm requires OS X version 10.2 or higher to run. This application will now terminate.";
+"Minimum_OS"="CMSSW requires OS X version 10.6. This application will now terminate.";
 
 /* Sorry */
 "Sorry"="Sorry";
