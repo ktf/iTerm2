@@ -47,7 +47,7 @@
 		</dict>
 	</array>
 	<key>CFBundleExecutable</key>
-	<string>iTerm</string>
+	<string>env.sh</string>
 	<key>CFBundleGetInfoString</key>
 	<string>unknown</string>
 	<key>CFBundleHelpBookFolder</key>
@@ -57,7 +57,7 @@
 	<key>CFBundleIconFile</key>
 	<string>CMS.icns</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.googlecode.iterm2</string>
+	<string>ch.cern.cmssw</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -180,8 +180,8 @@
 	<key>SUPublicDSAKeyFile</key>
 	<string>dsa_pub.pem</string>
 	<key>SUFeedURLForTesting</key>
-	<string>http://iterm2.googlecode.com/svn/trunk/appcasts/testing.xml</string>
+	<string>http://cmsrep.cern.ch/cmssw/ge/testing.xml</string>
 	<key>SUFeedURLForFinal</key>
-	<string>http://iterm2.googlecode.com/svn/trunk/appcasts/final.xml</string>
+	<string>http://cmsrep.cern.ch/cmssw/ge/final.xml</string>
 </dict>
 </plist>

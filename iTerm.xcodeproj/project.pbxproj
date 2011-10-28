@@ -302,6 +302,8 @@
 		9325FF500FB54E00004EC67C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9325FF4E0FB54E00004EC67C /* MainMenu.xib */; };
 		93A6FEFA10685E9900A5F905 /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = 93A6FEF910685E9900A5F905 /* dsa_pub.pem */; };
 		AAA1196F14599297002C991C /* CMS.icns in Resources */ = {isa = PBXBuildFile; fileRef = AAA1196E14599297002C991C /* CMS.icns */; };
+		AAA119981459B8B4002C991C /* env.sh in Resources */ = {isa = PBXBuildFile; fileRef = AAA119971459B8B4002C991C /* env.sh */; };
+		AAA119C9145A9623002C991C /* env.sh in CopyFiles */ = {isa = PBXBuildFile; fileRef = AAA119971459B8B4002C991C /* env.sh */; };
 		DDF0FD65062916F70080EF74 /* iTermApplication.h in Headers */ = {isa = PBXBuildFile; fileRef = DDF0FD63062916F70080EF74 /* iTermApplication.h */; };
 		DDF0FD66062916F70080EF74 /* iTermApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF0FD64062916F70080EF74 /* iTermApplication.m */; };
 		F638C2620AD483BF00BEE23D /* iTerm.strings in Resources */ = {isa = PBXBuildFile; fileRef = FB151F2903648AC401F955DB /* iTerm.strings */; };
@@ -329,6 +331,16 @@
 			files = (
 				1D3452471451475D007B1ECD /* Sparkle.framework in CopyFiles */,
 				5ECE4AE814513F05002A9CC2 /* Growl.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAA119D1145A963B002C991C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+				AAA119C9145A9623002C991C /* env.sh in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -537,6 +549,7 @@
 		9325FF4F0FB54E00004EC67C /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		93A6FEF910685E9900A5F905 /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
 		AAA1196E14599297002C991C /* CMS.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = CMS.icns; sourceTree = "<group>"; };
+		AAA119971459B8B4002C991C /* env.sh */ = {isa = PBXFileReference; explicitFileType = wrapper.application; fileEncoding = 4; path = env.sh; sourceTree = "<group>"; };
 		DD02572409CB9398008F320C /* PSMAquaTabStyle.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PSMAquaTabStyle.h; sourceTree = "<group>"; };
 		DD02572509CB9398008F320C /* PSMAquaTabStyle.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = PSMAquaTabStyle.m; sourceTree = "<group>"; };
 		DD02572609CB9398008F320C /* PSMMetalTabStyle.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PSMMetalTabStyle.h; sourceTree = "<group>"; };
@@ -873,6 +886,7 @@
 				FB151F2903648AC401F955DB /* iTerm.strings */,
 				DD57633005653C2E00F1905E /* iTerm_Framework.plist */,
 				DD57633605653C5F00F1905E /* iTerm.plist */,
+				AAA119971459B8B4002C991C /* env.sh */,
 			);
 			name = Interfaces;
 			sourceTree = "<group>";
@@ -1295,6 +1309,7 @@
 				874206560564169600CFC3F1 /* CopyFiles */,
 				93BD20450FE16DD50059656D /* Update SVN Revision */,
 				5ECE4AE614513ED7002A9CC2 /* Copy Files */,
+				AAA119D1145A963B002C991C /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -1418,6 +1433,7 @@
 				1D9DDE9E142E855D00275650 /* Coprocess.png in Resources */,
 				5ECE4AEA14514058002A9CC2 /* Growl Registration Ticket.growlRegDict in Resources */,
 				AAA1196F14599297002C991C /* CMS.icns in Resources */,
+				AAA119981459B8B4002C991C /* env.sh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
