@@ -9,15 +9,17 @@
 export SCRAM_ARCH=osx106_amd64_gcc421
 progname="$0"
 dirname=`dirname "$progname"`
+apppath=$dirname/../..
+export PATH=$apppath/common:$apppath/bin:$PATH
 
-if [ -f $dirname/../../cmsset_default.sh ]
+if [ -f $apppath/cmsset_default.sh ]
 then
-  source $dirname/../../cmsset_default.sh
+  source $apppath/cmsset_default.sh
 fi
 
-if [ -f $dirname/../../$SCRAM_ARCH/apt-init.sh ]
+if [ -f $apppath/$SCRAM_ARCH/apt-init.sh ]
 then
-  source $dirname/../../$SCRAM_ARCH/apt-init.sh
+  source $apppath/$SCRAM_ARCH/apt-init.sh
 fi
-echo $SCRAM_ARCH
+alias cms-install='source $apppath/$SCRAM_ARCH/apt-init.sh ; apt-get'
 $dirname/iTerm
