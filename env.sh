@@ -12,14 +12,12 @@ dirname=`dirname "$progname"`
 apppath=$dirname/../..
 export PATH=$apppath/common:$apppath/bin:$PATH
 
-if [ -f $apppath/cmsset_default.sh ]
-then
+if [ -f $apppath/cmsset_default.sh ]; then
   source $apppath/cmsset_default.sh
 fi
 
-if [ -f $apppath/$SCRAM_ARCH/apt-init.sh ]
-then
+if [ -f $apppath/$SCRAM_ARCH/apt-init.sh ]; then
   source $apppath/$SCRAM_ARCH/apt-init.sh
 fi
-alias cms-install='source $apppath/$SCRAM_ARCH/apt-init.sh ; apt-get'
-$dirname/iTerm
+
+exec $dirname/iTerm ${1+"$@"}
